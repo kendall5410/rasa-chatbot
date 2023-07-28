@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chatbot-project"
+version = "0.1.0"
+description = "chatbot that offers assistence to its users"
+authors = ["kendall5410 <121357155+kendall5410@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "chatbot_project"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+rasa = "^3.6.4"
+fastapi = "^0.100.1"
+uvicorn = "^0.23.1"
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
