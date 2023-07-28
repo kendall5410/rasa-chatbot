@@ -21,7 +21,7 @@ rasa run --enable-api --cors "*"
 ```
 
 
-STEP 4: open up another terminal (`command + t`) and run the command below 
+STEP 4: open up another terminal (`command + t`), activate the shell again (STEP 2), and run the command below 
 ```shell
 poetry run uvicorn app:app --reload --host=0.0.0.0 --port=8080
 ```
